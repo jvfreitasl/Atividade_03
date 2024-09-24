@@ -1,12 +1,33 @@
-.caixaLogin{
-  padding: 6px;
+:root {
+  --cor-principal: #000000;
+  --cor-secundaria: #b2b2b2;
+  --cor-fundo: #ffffff;
+  --cor-azul-escuro: #0047ab;
+  --cor-vermelho-mercedes: #c8102e;
+  --cor-amarelo-ferrari: #ffef00;
+}
+
+.caixaLogin {
+  padding: 10px;
   margin-bottom: 5px;
-  border-radius: 10px;
-  color: #fff;
-  background-color: #000;
+  border-radius: 5px;
+  color: var(--cor-principal);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   outline: none;
 }
+
+label {
+  background-color: var(--cor-amarelo-ferrari);
+  padding-left: 36%;
+  padding-right: 35%;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-bottom: 4px;
+}
+
+.caixaLogin input {
+  border-radius: 20px;
+};

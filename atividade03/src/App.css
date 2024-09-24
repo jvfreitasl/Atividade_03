@@ -1,22 +1,42 @@
-.App{
-  background-color: #000;
-  color: #fff; 
-  height: 100vh;
-  width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+  --cor-principal: #000000;
+  --cor-secundaria: #B2B2B2;
+  --cor-fundo: #FFFFFF;
+  --cor-azul-escuro: #0047AB;
+  --cor-vermelho-mercedes: #C8102E;
+  --cor-amarelo-ferrari: #FFEF00;
+}
+
+.App {
+  background-color: var(--cor-fundo);
+  background-image: url('https://upload.wikimedia.org/wikipedia/sco/d/d1/Ferrari-Logo.svg');
+  background-repeat: no-repeat;
+  background-size: 22rem;
+  background-position: center;
+  color: var(--cor-principal);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .App-header {
+  color: var(--cor-vermelho-mercedes);
+  text-shadow: 1px 1px 2px var(--cor-principal);
   font-size: 5vh;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 8px;
 }
 
-.containerLogin{
-  display: inline-block;
-  flex-direction: wrap;
-  background-color: #979494;
-  border: 2px solid #000;
-  border-radius: 5px;
+.containerLogin {
+  color: var(--cor-fundo);
+  background-color: var(--cor-vermelho-mercedes);
+  border: 3px solid #333;
+  border-radius: 9px;
   padding: 10px;
-  margin: 10% 20px;
+  margin: 69% 20px;
 }

@@ -1,0 +1,24 @@
+:root {
+  --cor-principal: #000000;
+  --cor-secundaria: #B2B2B2;
+  --cor-fundo: #FFFFFF;
+  --cor-azul-escuro: #0047AB;
+  --cor-vermelho-mercedes: #C8102E;
+}
+
+.meuFooter{
+  background-color: var(--cor-vermelho-mercedes);
+  color: var(--cor-fundo);
+  display: flex;
+  width: 99%;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid var(--cor-secundaria);
+  border-radius: 10px;
+}
+
+.meuFooter a{
+  color: var(--cor-fundo);
+  text-decoration: none;
+  cursor: pointer;
+}
