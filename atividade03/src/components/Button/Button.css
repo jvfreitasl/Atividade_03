@@ -1,23 +1,27 @@
 :root {
   --cor-principal: #000000;
-  --cor-secundaria: #B2B2B2;
-  --cor-fundo: #FFFFFF;
-  --cor-azul-escuro: #0047AB;
-  --cor-vermelho-mercedes: #C8102E;
-  --cor-amarelo-ferrari: #FFEF00;
+  --cor-secundaria: #b2b2b2;
+  --cor-fundo: #ffffff;
+  --cor-azul-escuro: #0047ab;
+  --cor-vermelho-mercedes: #c8102e;
+  --cor-amarelo-ferrari: #ffef00;
+  --cor-verde-ferrari: #009a4e;
 }
 
 button{
-  width: 50%;
+  border: 3px solid var(--cor-secundaria);
   background-color: var(--cor-vermelho-mercedes);
   color: var(--cor-fundo);
-  margin-top: 10px;
-  margin-left: 25%;
-  padding: 5px 6px;
   border-radius: 5px;
   cursor: pointer;
   transition: .4s all;
   outline: none;
+  height: 4.5vh;
+  width: 14vw;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button:hover{

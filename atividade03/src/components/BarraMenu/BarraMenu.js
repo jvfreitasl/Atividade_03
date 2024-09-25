@@ -1,9 +1,12 @@
 import './BarraMenu.css'
 const BarraMenu = () =>{
   return(
-    <nav>
-
-    </nav>
+      <ul className='formulario'>
+        <li>Teste</li>
+        <li>Teste</li>
+        <li>Teste</li>
+        <li>Teste</li>
+      </ul>
   )
 }
 

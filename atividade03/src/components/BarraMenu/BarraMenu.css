@@ -1,0 +1,17 @@
+:root {
+  --cor-principal: #000000;
+  --cor-secundaria: #b2b2b2;
+  --cor-fundo: #ffffff;
+  --cor-azul-escuro: #0047ab;
+  --cor-vermelho-mercedes: #c8102e;
+  --cor-amarelo-ferrari: #ffef00;
+  --cor-verde-ferrari: #009a4e;
+}
+
+.formulario {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  list-style: none;
+}

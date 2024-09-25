@@ -1,20 +1,22 @@
 :root {
   --cor-principal: #000000;
-  --cor-secundaria: #B2B2B2;
-  --cor-fundo: #FFFFFF;
-  --cor-azul-escuro: #0047AB;
-  --cor-vermelho-mercedes: #C8102E;
+  --cor-secundaria: #b2b2b2;
+  --cor-fundo: #ffffff;
+  --cor-azul-escuro: #0047ab;
+  --cor-vermelho-mercedes: #c8102e;
+  --cor-amarelo-ferrari: #ffef00;
+  --cor-verde-ferrari: #009a4e;
 }
 
 .meuFooter{
   background-color: var(--cor-vermelho-mercedes);
   color: var(--cor-fundo);
-  display: flex;
-  width: 99%;
-  flex-direction: column;
-  align-items: center;
   border: 2px solid var(--cor-secundaria);
   border-radius: 10px;
+  margin-top: auto;
+  text-align: center;
+  padding: 10px;
+  width: 98.5%;
 }
 
 .meuFooter a{
