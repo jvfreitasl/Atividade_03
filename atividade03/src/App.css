@@ -61,17 +61,27 @@
   flex: 1;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 20px;
+  padding: 10%;
 }
 
 .containerLogin{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px auto;
+  margin: 10px;
 }
 
 .containerLoginLista {
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+.containerLista{
+  width: 15vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -17,9 +17,11 @@ function App() {
             <Login name="password" type="password" textName={"Senha"} />
             <Button name="botaoEntrar" type="input" textButton={"Entrar"} />
           </section>
-          <form className="formulario">
-            <BarraMenu />
-          </form>
+          <div className="containerLista">
+            <form className="formulario">
+              <BarraMenu />
+            </form>
+          </div>
         </div>
       </main>
       <Footer className="appFooter" />
